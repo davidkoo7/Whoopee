@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout00"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+        <TextView
+            android:text="30"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvFirstNum"
+            android:layout_marginRight="30dp"
+            android:textSize="60dp" />
+        <TextView
+            android:text="+"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvDeno"
+            android:layout_marginRight="30dp"
+            android:textSize="60dp" />
+        <TextView
+            android:text="50"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvSecondNum"
+            android:textSize="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+        <Button
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnFirstNum"
+            android:layout_marginRight="30dp"
+            android:textSize="30dp" />
+        <Button
+            android:text="65"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnSecondNum"
+            android:layout_marginRight="30dp"
+            android:textSize="30dp" />
+        <Button
+            android:text="15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnThirdNum"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <TextView
+        android:text="Correct"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        android:textSize="40dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center" />
+</LinearLayout>

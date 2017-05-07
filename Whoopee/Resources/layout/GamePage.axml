@@ -7,10 +7,36 @@
     android:minHeight="25px">
     <LinearLayout
         android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#4c5666">
+        <TextView
+            android:text="Level"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvIgnore"
+            android:textSize="60dp"
+            android:layout_marginRight="20dp" />
+        <TextView
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvLevel"
+            android:textSize="60dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout00"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:gravity="center">
         <TextView
             android:text="30"
@@ -72,5 +98,12 @@
         android:id="@+id/tvResult"
         android:textSize="40dp"
         android:layout_marginTop="60dp"
-        android:gravity="center" />
+        android:gravity="center"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3" />
 </LinearLayout>
